@@ -1,4 +1,4 @@
-mport React, { Component, useState, useEffect } from "react";
+import React, { Component, useState, useEffect } from "react";
 import '../styles/App.css';
 import React, { useState } from "react";
 import "../styles/App.css";
@@ -35,8 +35,7 @@ const App = () => {
           Reverse countdown for
           <input
             id="timeCount"
-            onKeyDown={(event) => handleKeyDown(event)}
-          />{" "}
+            onKeyDown={(event) => handleKeyDown(event)}/>{" "}
           sec.
         </h1>
       </div>
